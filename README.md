@@ -1,8 +1,16 @@
-In this project we are implementing the feedback system using Naïve Bayes theorem,using the principle of predicting the
-output given the test cases given in the Data Set.We either predict whether the feedback is good or bad. 
+# Naive Bayes Feedback Analyzer
 
-The training set is limited but the accuracy of the algorithm is pretty efficient with just so many tuples.
-Then the input to the machine is the feedback forms which has 4 attributes i.e. 4 questions and each can take 3 values.
+The project is done as a part of Data Mining project. Instead of using the in-built libraries and interfaces for building a **Naive-Bayes** data mining algorithm, we use the bare formulae to calculate the actual conditional probabilites and apply the Naive Bayes theorem.
 
-Then we classify the input into a good feedback or bad feedback by calculating the conditional probabilities.
+## Problem Statement
+
+The origin of the data set is from the feedback forms that are submitted by the students of any department of an institution.
+As of now, there are 2 sets of questions which happens to come from 2 types of forms: Faculty feedback forms and Course Feedback forms.
+
+## Flow
+
+The input data is first trained by building a matrix of **conditional probablilites**.
+Then an overall *row-wise and column-wise* probablity statistics and then use them to derive two sets of conclusions.
+
+We then use these labelled tuples to output whether the feedback is good or bad
 
